@@ -1,6 +1,6 @@
 # chaek-union
 
-**chaek-union** is an open educational organization building free, open-source university-level textbooks and lecture materials. We aim to foster collaboration among educators, researchers, and students to co-create high-quality learning resources in Korean and English.
+**chaek-union**, a part of the publication committee of the Korea Applied Science Research Association (KASRA), is an open educational organization building free, open-source university-level textbooks and lecture materials. We aim to foster collaboration among educators, researchers, and students to co-create high-quality learning resources in Korean and English.
 
 ---
 
@@ -53,5 +53,5 @@ We welcome contributions from anyone — students, faculty, professionals — as
 
 ## Acknowledgments & Contact
 
-We appreciate all contributors. If you’re citing or linking to our work, please mention **chaek-union** and include the repository URL.  
+We appreciate all contributors. If you’re citing or linking to our work, please mention **chaek-union** (a part of the publication committee of KASRA) and include the repository URL.  
 For inquiries, please open an issue or reach out via the email/contact listed in specific repositories.
