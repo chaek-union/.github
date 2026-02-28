@@ -15,11 +15,17 @@
 
 ## Projects & Repositories
 
-| Name | Purpose / Scope |
+Currently, we host the open textbook platform and 6 active book projects.
+
+| Name / Title | Purpose / Scope |
 |---|---|
 | `chaek-org` | The platform for hosting and viewing open textbooks (Svelte + TypeScript) |
-| `human-genetics` | A draft textbook on human genetics for undergraduates |
-| `introduction-to-biomedical-informatics` | Lecture notes / course materials for “Introduction to Biomedical Informatics” |
+| 나의 첫번째 논문 쓰기 | A guide for writing your first academic paper |
+| A Byte of Python (한국어판) | Korean translation of "A Byte of Python" |
+| AI for Genomic Science | Open textbook on AI applications in genomics |
+| Basic Stats for Omics | Open textbook on basic statistics for omics data |
+| Human Genetics | A draft textbook on human genetics for undergraduates |
+| Introduction to Biomedical Informatics | Lecture notes and course materials for biomedical informatics |
 
 *(More projects may be added in the future.)*
 
