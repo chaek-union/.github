@@ -52,13 +52,15 @@ We provide a CLI tool to easily bootstrap a new open textbook project. Run the f
 
 You will be prompted for the language (Korean or English), book title, and author. The tool will generate the following standard directory structure:
 
-`my-book/`
-`├── book.json            # Book configuration`
-`├── README.md            # Book introduction`
-`├── SUMMARY.md           # Table of contents`
-`├── chapters/`
-`│   └── chapter1.md      # Starter chapter`
-`└── assets/              # Images and static files`
+```
+my-book/
+├── book.json            # Book configuration
+├── README.md            # Book introduction
+├── SUMMARY.md           # Table of contents
+├── chapters/
+│   └── chapter1.md      # Starter chapter
+└── assets/              # Images and static files
+```
 
 ---
 
