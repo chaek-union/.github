@@ -15,11 +15,17 @@
 
 ## Projects & Repositories
 
-Currently, we host the open textbook platform and 6 active book projects.
+Currently, we host the open textbook platform, publishing tools, and 6 active book projects.
 
-| Name / Title | Purpose / Scope |
+### 🛠️ Tools
+| Name | Description |
 |---|---|
 | `chaek-org` | The platform for hosting and viewing open textbooks (Svelte + TypeScript) |
+| `@chaek-org/kit` | CLI tool for creating and scaffolding chaek-compatible books |
+
+### 📚 Books
+| Title | Purpose / Scope |
+|---|---|
 | 나의 첫번째 논문 쓰기 | A guide for writing your first academic paper |
 | A Byte of Python (한국어판) | Korean translation of "A Byte of Python" |
 | AI for Genomic Science | Open textbook on AI applications in genomics |
@@ -31,29 +37,45 @@ Currently, we host the open textbook platform and 6 active book projects.
 
 ---
 
+## Getting Started
+
+### 📖 Contributing to Existing Projects
+1. Browse the repositories under this organization.  
+2. Pick a topic or repository of interest.  
+3. Open an issue or propose a small change (fix typo, clarify text, add reference).  
+4. Engage in discussion, iterate, and contribute more over time.  
+
+### ✍️ Creating a New Book
+We provide a CLI tool to easily bootstrap a new open textbook project. Run the following command:
+
+`npx @chaek-org/kit create my-book`
+
+You will be prompted for the language (Korean or English), book title, and author. The tool will generate the following standard directory structure:
+
+`my-book/`
+`├── book.json            # Book configuration`
+`├── README.md            # Book introduction`
+`├── SUMMARY.md           # Table of contents`
+`├── chapters/`
+`│   └── chapter1.md      # Starter chapter`
+`└── assets/              # Images and static files`
+
+---
+
 ## Contribution
 
 1. **Issue Creation** — Report bugs, request new content, or suggest edits.  
 2. **Fork & PR** — Work in small increments. Follow the repository’s style, formatting, and documentation conventions.  
 3. **Documentation & Review** — Improve clarity, examples, references, and internal linking.
 
-We welcome contributions from anyone — students, faculty, professionals — as long as they adhere to open license guidelines.
+We welcome contributions from anyone — students, faculty, professionals — as long as they adhere to open license guidelines (e.g., MIT License for tooling).
 
 ---
 
 ## Governance & Policies
 
-- Issues and PRs will be triaged by maintainers; major decisions will involve community input  
-- Code of Conduct will be adopted to ensure respectful, inclusive collaboration
-
----
-
-## Getting Started
-
-1. Browse the repositories under this organization  
-2. Pick a topic or repository of interest  
-3. Open an issue or propose a small change (fix typo, clarify text, add reference)  
-4. Engage in discussion, iterate, and contribute more over time  
+- Issues and PRs will be triaged by maintainers; major decisions will involve community input.  
+- Code of Conduct will be adopted to ensure respectful, inclusive collaboration.
 
 ---
 
